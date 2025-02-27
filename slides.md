@@ -67,7 +67,7 @@ image: https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55?q=80&w=2000
     </div>
     <div class="flex items-center mb-3">
       <div class="w-8 h-8 rounded-full bg-gradient-to-r from-purple-400 to-purple-600 flex items-center justify-center text-white mr-2">
-        <carbon:optimize-target class="w-4 h-4" />
+        <carbon:target class="w-4 h-4" />
       </div>
       <div>Optimiser la gestion des expéditions</div>
     </div>
@@ -550,7 +550,7 @@ layout: two-cols
   </div>
   <div class="flex items-center">
     <div class="w-10 h-10 rounded-full bg-gradient-to-r from-yellow-400 to-yellow-600 flex items-center justify-center text-white mr-3">
-      <carbon:test class="w-6 h-6" />
+      <carbon:code-reference class="w-6 h-6" />
     </div>
     <div>Tests unitaires</div>
   </div>
@@ -732,7 +732,7 @@ h1 {
 
 <div class="flex items-center mb-4">
   <div class="w-12 h-12 rounded-full bg-gradient-to-r from-blue-400 to-blue-600 flex items-center justify-center text-white mr-3">
-    <carbon:optimize-target class="w-7 h-7" />
+    <carbon:target class="w-7 h-7" />
   </div>
   <div class="font-bold text-lg">Optimisation</div>
 </div>
@@ -857,113 +857,4 @@ graph LR
 <style>
 h1 {
   background-image: linear-gradient(45deg , #4F46E5, #EC4899);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  font-weight: 700;
-}
-</style>
-
----
-layout: center
-class: text-center
----
-
-# 8. Conclusion
-
-<div class="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-br from-blue-500/10 to-purple-500/10 backdrop-blur-sm rounded-lg z-[-1] m-4"></div>
-
-<div class="p-6 rounded-xl bg-white/10 backdrop-blur-md border border-white/20 shadow-xl max-w-3xl mx-auto">
-
-<v-clicks>
-
-<div class="mb-8">
-  <div class="text-xl font-bold mb-4 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">Une solution innovante, performante et évolutive</div>
-  
-  <div class="flex items-center mb-3">
-    <div class="w-10 h-10 rounded-full bg-gradient-to-r from-blue-400 to-blue-600 flex items-center justify-center text-white mr-3">
-      <carbon:ai-status class="w-6 h-6" />
-    </div>
-    <div>Intégration réussie de l'IA dans le processus logistique</div>
-  </div>
-  <div class="flex items-center mb-3">
-    <div class="w-10 h-10 rounded-full bg-gradient-to-r from-indigo-400 to-indigo-600 flex items-center justify-center text-white mr-3">
-      <carbon:application-web class="w-6 h-6" />
-    </div>
-    <div>Technologies modernes pour une expérience utilisateur optimale</div>
-  </div>
-  <div class="flex items-center">
-    <div class="w-10 h-10 rounded-full bg-gradient-to-r from-purple-400 to-purple-600 flex items-center justify-center text-white mr-3">
-      <carbon:cloud class="w-6 h-6" />
-    </div>
-    <div>Infrastructure robuste et scalable</div>
-  </div>
-</div>
-
-<div>
-  <div class="text-xl font-bold mb-4 bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">L'IA au service de la logistique</div>
-  
-  <div class="flex items-center mb-3">
-    <div class="w-10 h-10 rounded-full bg-gradient-to-r from-pink-400 to-pink-600 flex items-center justify-center text-white mr-3">
-      <carbon:data-vis-4 class="w-6 h-6" />
-    </div>
-    <div>Analyse des données pour des décisions intelligentes</div>
-  </div>
-  <div class="flex items-center mb-3">
-    <div class="w-10 h-10 rounded-full bg-gradient-to-r from-red-400 to-red-600 flex items-center justify-center text-white mr-3">
-      <carbon:machine-learning-model class="w-6 h-6" />
-    </div>
-    <div>Automatisation des processus complexes</div>
-  </div>
-  <div class="flex items-center">
-    <div class="w-10 h-10 rounded-full bg-gradient-to-r from-orange-400 to-orange-600 flex items-center justify-center text-white mr-3">
-      <carbon:user-profile class="w-6 h-6" />
-    </div>
-    <div>Amélioration continue de l'expérience utilisateur</div>
-  </div>
-</div>
-
-</v-clicks>
-
-</div>
-
-<style>
-h1 {
-  background-image: linear-gradient(45deg, #4F46E5, #EC4899);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  font-weight: 700;
-}
-</style>
-
----
-layout: center
-class: text-center
----
-
-<div class="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-br from-indigo-500/10 to-purple-500/10 backdrop-blur-sm rounded-lg z-[-1] m-4"></div>
-
-<div class="p-8 rounded-xl bg-white/10 backdrop-blur-md border border-white/20 shadow-xl max-w-3xl mx-auto">
-
-# Merci de votre attention
-
-<div class="text-xl mt-4 mb-8">Des questions ?</div>
-
-<div class="pt-12">
-  <span class="px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20">
-    Projet de suivi des livraisons avec IA - 2025
-  </span>
-</div>
-
-</div>
-
-<style>
-h1 {
-  background-image: linear-gradient(45deg, #4F46E5, #EC4899);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  font-weight: 700;
-}
-</style>
+  backgrou

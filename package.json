@@ -1,8 +1,5 @@
 {
   "private": true,
-  "engines": {
-    "node": ">=18.0.0"
-  },
   "scripts": {
     "dev": "slidev",
     "build": "slidev build",
@@ -11,7 +8,6 @@
   "dependencies": {
     "@slidev/cli": "latest",
     "@slidev/theme-default": "latest",
-    "@slidev/theme-seriph": "latest",
-    "@iconify-json/carbon": "latest"
+    "@slidev/theme-seriph": "latest"
   }
 }

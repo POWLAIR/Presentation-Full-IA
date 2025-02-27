@@ -510,7 +510,7 @@ layout: two-cols
   </div>
   <div class="flex items-center">
     <div class="w-10 h-10 rounded-full bg-gradient-to-r from-indigo-400 to-indigo-600 flex items-center justify-center text-white mr-3">
-      <carbon:choice class="w-6 h-6" />
+      <carbon:select-window class="w-6 h-6" />
     </div>
     <div>Choix des technologies</div>
   </div>
@@ -856,5 +856,48 @@ graph LR
 
 <style>
 h1 {
-  background-image: linear-gradient(45deg , #4F46E5, #EC4899);
-  backgrou
+  background-image: linear-gradient(45deg, #4F46E5, #EC4899);
+  background-clip: text; -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 700;
+}
+</style>
+
+---
+layout: center
+class: text-center
+---
+
+# Merci de votre attention !
+
+<div class="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20 backdrop-blur-sm rounded-lg z-[-1]"></div>
+
+<div class="p-6 rounded-xl bg-white/10 backdrop-blur-md border border-white/20 shadow-xl max-w-2xl mx-auto">
+  <div class="text-xl mb-4">Des questions ?</div>
+  
+  <div class="grid grid-cols-2 gap-4 mt-8">
+    <div class="p-4 rounded-lg bg-white/5 backdrop-blur-sm border border-white/10">
+      <div class="text-lg font-bold mb-2">Contact</div>
+      <div class="flex items-center">
+        <carbon:email class="mr-2" /> contact@example.com
+      </div>
+    </div>
+    
+    <div class="p-4 rounded-lg bg-white/5 backdrop-blur-sm border border-white/10">
+      <div class="text-lg font-bold mb-2">Documentation</div>
+      <div class="flex items-center">
+        <carbon:document class="mr-2" /> docs.example.com
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+h1 {
+  background-image: linear-gradient(45deg, #4F46E5, #EC4899);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 700;
+}
+</style>
